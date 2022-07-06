@@ -1,8 +1,8 @@
 const aoijs = require("aoi.js")
 
 const bot = new aoijs.Bot({
-token:process.env.TOKEN,
-prefix: "m!",
+token:"BOTUNUZUN TOKENİ",
+prefix: "BOTUNUZUN PREFİXİ",
 intents: ["GUILDS", "GUILD_MESSAGES"]
 })
 

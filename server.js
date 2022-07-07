@@ -18,7 +18,11 @@ bot.onMessage()
 //Değişkenler
 bot.variables({
   para:100, //Başlangıç parasıdır. Değiştirdiğiniz taktirde yeni başlayan kişilerin parası o miktar olarak ayarlanacaktır.
-})
+  banner:"https://i.pinimg.com/originals/1c/99/90/1c9990cdbbff7b83ebe4736aade5ddc0.png",
+  hakkımda:"yazılmamış.",
+  paraa:5, //Sunucularda komut kullanımında kaç para vereceğini ayarlarsınız.
+  kural:"yok"
+  })
 //Değişkenler
 
 

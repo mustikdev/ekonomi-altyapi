@@ -6,7 +6,8 @@ prefix: "BOTUNUZUN PREFİXİ",
 intents: ["GUILDS", "GUILD_MESSAGES"]
 })
 
-//Command Handler
+
+  //Command Handler
 const loader = new aoijs.LoadCommands(bot)
  loader.load(bot.cmd,"./komutlar/")
 //Command Handler
@@ -18,10 +19,11 @@ bot.onMessage()
 //Değişkenler
 bot.variables({
   para:100, //Başlangıç parasıdır. Değiştirdiğiniz taktirde yeni başlayan kişilerin parası o miktar olarak ayarlanacaktır.
-  banner:"https://i.pinimg.com/originals/1c/99/90/1c9990cdbbff7b83ebe4736aade5ddc0.png",
   hakkımda:"yazılmamış.",
   paraa:5, //Sunucularda komut kullanımında kaç para vereceğini ayarlarsınız.
-  kural:"yok"
+  kural:"yok",
+  banner:"yok/yok/yok/yok/yok/yok",
+  sbanner:"https://cdn.discordapp.com/attachments/893602403025289236/995106754260111463/technoblade.jpg",
   })
 //Değişkenler
 

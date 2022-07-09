@@ -5,9 +5,7 @@ token:"BOTUNUZUN TOKENİ",
 prefix: "BOTUNUZUN PREFİXİ",
 intents: ["GUILDS", "GUILD_MESSAGES"]
 })
-
-
-  //Command Handler
+//Command Handler
 const loader = new aoijs.LoadCommands(bot)
  loader.load(bot.cmd,"./komutlar/")
 //Command Handler
@@ -24,7 +22,9 @@ bot.variables({
   kural:"yok",
   banner:"yok/yok/yok/yok/yok/yok",
   sbanner:"https://cdn.discordapp.com/attachments/893602403025289236/995106754260111463/technoblade.jpg",
-  })
+  farm:"yok", //100/1/1/1/100/250/500 
+
+})
 //Değişkenler
 
 

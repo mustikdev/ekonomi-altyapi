@@ -6,7 +6,7 @@ module.exports = {
   code:`
   $color[1;000046]
   $if[$message==]
-  $addField[1;Genel komutlar; \`myardım\` | \`mgünlük\` | \`mpara\` | \`mçalış\` | \`mprofil\` | \`mhakkımda-değiştir\` | ;yes]
+  $addField[1;Genel komutlar; \`myardım\` | \`mgünlük\` | \`mpara\` | \`mçalış\` | \`mprofil\` | \`mhakkımda-değiştir\` | \`m!farm\` ;yes]
   $addField[1;Değişken komutlar; \`mpara-ayar\` | \`mkomutpara-ayar\` | ;yes]
   $addField[1;Bot sahibi komutları;\`meval\` | \`mhack\`;yes]
 
